@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    padding-top: 32px;
+    padding-right: 32px;
+    
+    &__link{
+        text-decoration: none;
+        font-size: 24px;
+        color: #1DB954;
+        padding: 2px 8px;
+        border-radius: 8px;
+        
+        &.active{
+            background: #1DB954;
+            color: #fff;
+            
+        }
+        &--homepage{
+            margin-left: 32px;
+            
+        }
+        &--genres{
+           margin-left: auto;
+           margin-right: 64px;
+        }
+    }
+}
