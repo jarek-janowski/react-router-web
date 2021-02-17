@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    background: #9D79BC;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    &__socials{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        color: #F6E8EA;;
+        margin-right: 24px;
+        width: 48px;
+        height: 48px;
+        background: #312F2F;
+        border-radius: 50%;
+    }
+}

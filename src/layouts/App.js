@@ -19,12 +19,10 @@ class App extends Component {
               <Hero />
           </section>
           <section className="about">
-            <article>
-              <About />
-            </article>
+            <About />
           </section>
         </main>
-        <footer >
+        <footer className="footer">
           <Footer />
         </footer>
       </Router>

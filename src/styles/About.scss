@@ -1,0 +1,40 @@
+.who-am-i {
+    display: flex;
+    // align-items: center;
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    color: #F6E8EA;
+    letter-spacing: 1px;
+    &__description{
+        align-self: flex-start;
+        line-height: 1.8;
+        font-size: 18px;
+        &--link{
+            color: #9D79BC;
+        }
+    }
+    &__heading{
+        color: #9D79BC;
+        font-size: 64px;
+        padding: 128px 0 16px;
+        &--3{
+            padding: 32px 0 16px;
+            font-size: 36px;
+            color: #9D79BC;
+        }
+    }
+    &__photo{
+        width: 35%;
+        height: auto;
+        // border-radius: 8px;
+        align-self: center;
+        // border: 1px solid #9D79BC;
+        box-shadow: 0.8em 0.8em 0.3em #9D79BC;
+        
+    }
+    &__wrapper{
+        padding: 0 180px 128px 0;
+        text-align: start;
+    }
+}
