@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import {BrowserRouter as Router} from 'react-router-dom'
-import Navigation from './Navigation.js'
-import Hero from './Hero.js'
-import About from './About.js'
-import Footer from './Footer.js'
+import Navigation from './Navigation'
+// import About from '../pages/About'
+import Footer from './Footer'
+import Main from './Main'
 
 class App extends Component {
   state = {  }
@@ -15,12 +15,7 @@ class App extends Component {
           <Navigation />
         </header>
         <main className="main">
-          <section className="hero">
-              <Hero />
-          </section>
-          <section className="about">
-            <About />
-          </section>
+          <Main />
         </main>
         <footer className="footer">
           <Footer />
