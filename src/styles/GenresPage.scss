@@ -1,0 +1,42 @@
+.genres {
+    padding: 10% 0;
+    &__heading {
+        text-align: center;
+        font-size: 48px;
+        color: #1DB954;
+        margin-bottom: 16px;
+    }
+    &__description{
+        display: block;
+        max-width: 768px;
+        margin: 0 auto;
+        line-height: 1.5;
+        margin-bottom: 128px;
+        text-align: center;
+        color: #F6E8EA;
+
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+        row-gap: 64px;
+        text-align: center;
+    }
+    &-section{
+
+        &__heading{
+            color: #1DB954;
+            margin-bottom: 32px;
+        }
+    }
+    &-list{
+        list-style: none;
+        color: #F6E8EA;
+        line-height: 1.8;
+    }
+}
+
+.hero--genres {
+    background-image: url('../images/record-player.jpg');
+}

@@ -1,17 +1,18 @@
-import '../styles/About.scss'
+import '../styles/AboutPage.scss'
 import '../styles/Hero.scss'
 import me from '../images/me.jpeg'
 
 const About = () => {
+    
+    
     return ( 
         <>
             <section className="hero">
                 <div className="hero-wrapper"> 
-                    <h1 className="hero__heading">Cześć, <span className="hero__heading--special">tu Jarek!</span><span className="hero__heading--special-small">Witaj w strefie dobrych brzmień 😎</span></h1>
-                    
+                    <h1 className="hero__heading">Cześć, <span className="hero__heading--special">tu Jarek</span><span className="hero__heading--special-small">Witaj w strefie dobrych brzmień 😎</span></h1>  
                     <a className="hero__link" href="https://open.spotify.com/user/jaro935?si=tvec8xsfSUKYDLzKMqGXUg">Sprawdź mojego spotify</a>
                 </div>
-            </section>
+            </section> 
             <section className="about">
                 <article className="who-am-i">
                     <div className="who-am-i__wrapper">
