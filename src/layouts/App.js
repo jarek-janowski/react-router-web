@@ -17,7 +17,7 @@ class App extends Component {
         <main className="main">
           <Main />
         </main>
-        <footer className="footer">
+        <footer>
           <Footer />
         </footer>
       </Router>

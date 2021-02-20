@@ -1,5 +1,4 @@
 .hero {
-    background-image: url('../images/headphones-1920.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +9,7 @@
         font-size: 78px;
         color: #F6E8EA;
         margin-bottom: 40px;
+        
         &--special{
             display: block;
             margin-bottom: 16px;
@@ -32,9 +32,16 @@
             background: #1DB954;
             color: #F6E8EA;
         }
+
+    }
+    &--about{
+        background-image: url('../images/headphones-1920.jpg');
     }
     &--genres{
         background-image: url('../images/record-player.jpg');
+    }
+    &--top5{
+        background-image: url('../images/concert.jpg');
     }
 }
 
