@@ -1,0 +1,33 @@
+.top5{
+    min-height: 100vh;
+    max-width: 90%;
+    margin: 0 auto;
+    &__grid{
+        margin-top: 16px;
+        display: grid;
+        grid-template-columns: 31% 31% 31%;
+        grid-template-rows: auto;
+        row-gap: 64px;
+        column-gap: 3.5%;
+        text-align: center;
+    }
+    
+}
+
+.top5-list{
+    
+        list-style: none;
+        color: #F6E8EA;
+        
+        &-item{
+            &__title{
+                margin: 16px 0 0 0;
+            }
+            &__link{
+                display: inline-block;
+                margin-left: 8px;
+                color: #F6E8EA;
+            }
+        }
+    
+}
