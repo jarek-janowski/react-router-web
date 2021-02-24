@@ -4,27 +4,22 @@
     min-height: 100vh;
     width: 90%;
     margin: 0 auto;
-    color: #F6E8EA;
+    color: $white;;
     letter-spacing: 1px;
     &__description{
         align-self: flex-start;
-        line-height: 1.8;
+        line-height: 1.5;
         font-size: 18px;
         &--link{
-            color: #1DB954;
+            color: $green;
             text-decoration: none;
             font-weight: 700;
         }
     }
     &__heading{
-        color: #1DB954;
+        color: $green;
         font-size: 48px;
         padding: 128px 0 16px;
-        &--3{
-            padding: 32px 0 16px;
-            font-size: 48px;
-            color: #1DB954;
-        }
     }
     &__photo{
         width: 35%;

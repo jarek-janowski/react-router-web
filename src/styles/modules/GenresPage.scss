@@ -3,7 +3,7 @@
     &__heading {
         text-align: center;
         font-size: 48px;
-        color: #1DB954;
+        color: $green;
         margin-bottom: 16px;
     }
     &__description{
@@ -13,7 +13,7 @@
         line-height: 1.5;
         margin-bottom: 128px;
         text-align: center;
-        color: #F6E8EA;
+        color: $white;
 
     }
     &__grid {
@@ -31,14 +31,14 @@
         padding: 16px;
         border-radius: 8px;
         &__heading{
-            color: #1DB954;
+            color: $green;
             margin-bottom: 32px;
         }
     }
     &-list{
         margin-top: 16px;
         list-style: none;
-        color: #F6E8EA;
+        color: $white;
         line-height: 1.8;
     }
 }

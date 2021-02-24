@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import '_variables.scss';
+@import 'modules/AboutPage.scss';
+@import 'modules/App.scss';
+@import 'modules/Footer.scss';
+@import 'modules/GenresPage.scss';
+@import 'modules/Hero.scss';
+@import 'modules/Navigation.scss';
+@import 'modules/Top5Page.scss';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}

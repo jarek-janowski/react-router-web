@@ -1,18 +1,38 @@
 .footer{
     position: relative;
     display: flex;
-    background-color: #1DB954;
+    flex-wrap: wrap;
+    background-color: $green;
     height: 200px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    &-wrapper {
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        // margin: 0 auto;
+        width: 100%;
+    }
+    &__description{
+        // display: flex;
+        // align-self: flex-end;
+        text-align: center;
+        color: $white;
+        line-height: 1.5;
+        & span{
+            // color: red;
+            display: block;
+        }
+    }
     &__socials{
         // position: absolute;
-        z-index: 10;
+        // z-index: 10;
         text-decoration: none;
         font-size: 32px;
-        color: #F6E8EA;
-        margin-right: 32px;
+        color: $white;;
+        // margin-right: 32px;
+        margin: 0 12px;
     }
     &__image{
         position: absolute;

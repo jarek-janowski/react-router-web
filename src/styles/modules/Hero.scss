@@ -1,15 +1,18 @@
 .hero {
+    
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     &__heading {
+        background-color: rgba($color: #000000, $alpha: .3);
+        padding: 16px 8px;
+        border-radius: 16px;
         letter-spacing: 3px;
         line-height: 1.1;
         font-size: 78px;
-        color: #F6E8EA;
+        color: $white;
         margin-bottom: 40px;
-        
         &--special{
             display: block;
             margin-bottom: 16px;
@@ -21,28 +24,34 @@
     }
     &__link{
         text-decoration: none;
-        color: #1DB954;
+        color: $green;
         padding: 10px;
-        border: 1px solid #1DB954;
+        border: 1px solid $green;
         border-radius: 8px;
         transition: .2s;
         background-color: rgba($color: #000000, $alpha: .3);
         
         &:hover{
-            background: #1DB954;
-            color: #F6E8EA;
+            background: $green;
+            color: $white;
         }
 
     }
     &--about{
-        background-image: url('../images/headphones-1920.jpg');
+        // background-image: url('../images/headphones-1920.jpg');
+        background-image: url('../../images/headphones-1920.jpg');
     }
     &--genres{
-        background-image: url('../images/record-player.jpg');
+        background-image: url('../../images/record-player.jpg');
     }
     &--top5{
-        background-image: url('../images/concert.jpg');
+        background-image: url('../../images/concert.jpg');
     }
+    &--error{
+        background-image: url('../../images/not-found.jpg');
+        // filter: grayscale(100%);
+    }
+    
 }
 
 .hero-wrapper {

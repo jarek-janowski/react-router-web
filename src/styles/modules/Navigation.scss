@@ -9,17 +9,17 @@
     &__link{
         text-decoration: none;
         font-size: 24px;
-        color: #1DB954;
+        color: $green;
         padding: 2px 8px;
         border-radius: 8px;
         transition: .2s;
         &:hover{
-            background: #1DB954;
-            color: #F6E8EA;
+            background: $green;
+            color: $white;
         }
         &.active{
-            background: #1DB954;
-            color: #F6E8EA;
+            background: $green;
+            color: $white;
             
         }
         &--homepage{
