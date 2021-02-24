@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
     &__heading {
         background-color: rgba($color: #000000, $alpha: .3);
         padding: 16px 8px;
@@ -17,6 +18,10 @@
             letter-spacing: 1px;
             border-radius: 8px;
             margin-bottom: 8px;
+            
+        }
+        @media(min-width: $mobile) and (max-width: $tablet){
+            font-size: 40px;
         }
         &--special{
             display: block;
@@ -73,12 +78,13 @@
         position: none;
         top: 70%;
         left: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
         margin-left: 16px;
-        // top: 50%;
-        // left: 50%;
-        // transform: translateX(-50%)
+        
+    }
+    @media(min-width: $mobile) and (max-width: $tablet){
+        position: none;
+        top: 70%;
+        left: 0;
+        margin-left: 32px;
     }
 }

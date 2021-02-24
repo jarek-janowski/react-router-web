@@ -29,7 +29,7 @@
     &__heading{
         color: $green;
         font-size: 48px;
-        padding: 128px 0 16px;
+        padding: 80px 0 16px;
         @media(max-width: $mobile){
             font-size: 24px;
             padding: 64px 0 8px;
@@ -37,7 +37,11 @@
         }
     }
     &__photo{
-        width: 35%;
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        width: 100%;
         height: auto;
         align-self: center;
         border-radius: 8px;
@@ -52,15 +56,50 @@
             width: 80%;
             margin-top: 24px;
         }
+        @media(min-width: $mobile) and (max-width: 1440px){
+            box-shadow: -8px -8px 12px 0 rgba(0, 0, 0, .3),
+            8px 8px 12px 0 rgba(0, 0, 0, .5);
+            // order: 0;
+            display: block;
+            margin: 0 auto;
+            width: 40%;
+            margin-top: 40px;
+        }
+        
+    }
+    &__section-1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    &__section-2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
     &__wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 180px 128px 0;
-        text-align: start;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        gap: 10px;
+        // flex-direction: column;
+        // align-items: center;
+        padding: 0 0 0 0;
+        // text-align: start;
         @media(max-width: $mobile){
             padding: 0 0 32px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+        @media(min-width: $mobile) and (max-width: 1440px){
+            padding: 0 0 48px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
     }
 }
