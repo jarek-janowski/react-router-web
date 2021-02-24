@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-router-web/static/css/main.45960c0e.chunk.css",
+    "main.js": "/react-router-web/static/js/main.a7beb0f2.chunk.js",
+    "main.js.map": "/react-router-web/static/js/main.a7beb0f2.chunk.js.map",
+    "runtime-main.js": "/react-router-web/static/js/runtime-main.84abf83c.js",
+    "runtime-main.js.map": "/react-router-web/static/js/runtime-main.84abf83c.js.map",
+    "static/css/2.9b4ead07.chunk.css": "/react-router-web/static/css/2.9b4ead07.chunk.css",
+    "static/js/2.bc324543.chunk.js": "/react-router-web/static/js/2.bc324543.chunk.js",
+    "static/js/2.bc324543.chunk.js.map": "/react-router-web/static/js/2.bc324543.chunk.js.map",
+    "static/js/3.a9857c8c.chunk.js": "/react-router-web/static/js/3.a9857c8c.chunk.js",
+    "static/js/3.a9857c8c.chunk.js.map": "/react-router-web/static/js/3.a9857c8c.chunk.js.map",
+    "index.html": "/react-router-web/index.html",
+    "static/css/2.9b4ead07.chunk.css.map": "/react-router-web/static/css/2.9b4ead07.chunk.css.map",
+    "static/css/main.45960c0e.chunk.css.map": "/react-router-web/static/css/main.45960c0e.chunk.css.map",
+    "static/js/2.bc324543.chunk.js.LICENSE.txt": "/react-router-web/static/js/2.bc324543.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/react-router-web/static/media/record-player.ed66b5a5.jpg",
+    "static/media/font-awesome.min.css": "/react-router-web/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/me.34b692f4.jpeg": "/react-router-web/static/media/me.34b692f4.jpeg",
+    "static/media/widmo.bb47bbc1.png": "/react-router-web/static/media/widmo.bb47bbc1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84abf83c.js",
+    "static/css/2.9b4ead07.chunk.css",
+    "static/js/2.bc324543.chunk.js",
+    "static/css/main.45960c0e.chunk.css",
+    "static/js/main.a7beb0f2.chunk.js"
+  ]
+}
