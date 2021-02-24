@@ -1,5 +1,4 @@
 .hero {
-    
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +12,12 @@
         font-size: 78px;
         color: $white;
         margin-bottom: 40px;
+        @media(max-width: $mobile){
+            font-size: 24px;
+            letter-spacing: 1px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
         &--special{
             display: block;
             margin-bottom: 16px;
@@ -20,6 +25,9 @@
         &--special-small{
             display: block;
             font-size: 12px;
+            @media(max-width: $mobile){
+                font-size: 8px;
+            }
         }
     }
     &__link{
@@ -30,6 +38,9 @@
         border-radius: 8px;
         transition: .2s;
         background-color: rgba($color: #000000, $alpha: .3);
+        @media(max-width: $mobile){
+            font-size: 12px;
+        }
         
         &:hover{
             background: $green;
@@ -58,5 +69,16 @@
     position: absolute;
     top: 42%;
     left: 10%;
-    // background: rgba($color: #000000, $alpha: .2);
+    @media(max-width: $mobile){
+        position: none;
+        top: 70%;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 16px;
+        // top: 50%;
+        // left: 50%;
+        // transform: translateX(-50%)
+    }
 }

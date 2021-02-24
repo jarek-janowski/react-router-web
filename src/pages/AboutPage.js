@@ -17,6 +17,7 @@ const About = () => {
             <section className="about">
                 <article className="who-am-i">
                     <div className="who-am-i__wrapper">
+                        <img className="who-am-i__photo" src={me} alt="me"/>
                         <section>
                             <h2 className="who-am-i__heading">Kim jestem?</h2>
                             <p className="who-am-i__description">Przyszłym programistą Front-end'owym mam nadzieję 😊.
@@ -29,7 +30,7 @@ const About = () => {
                             </p>
                         </section>
                         <section>
-                            <h3 className="who-am-i__heading">Skąd to zainteresowanie muzyką</h3>
+                            <h3 className="who-am-i__heading">Skąd to zainteresowanie muzyką?</h3>
                             <p className="who-am-i__description">Od dziecka po prostu lubiłem słuchać muzyki, jeszcze na tzw. "wieży",
                             starsi pamiętają 😏. Nawet próbowałem swoich sił w graniu na instrumentach, ale nie było mi to pisane. 
                             Z czasem moje gusta się zmieniały, całe gimnazjum było namalowane rapem, a od technikum zacząłem wchodzić
@@ -37,7 +38,7 @@ const About = () => {
                         </section>
                     </div>
                     <p className="after"></p>
-                    <img className="who-am-i__photo" src={me} alt="me"/>
+                    
                 </article>
             </section>
         </>

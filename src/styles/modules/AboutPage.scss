@@ -1,15 +1,25 @@
 .who-am-i {
     display: flex;
-    // align-items: center;
+    align-items: center;
     min-height: 100vh;
     width: 90%;
     margin: 0 auto;
     color: $white;;
     letter-spacing: 1px;
+    @media(max-width: $mobile){
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 32px;
+    }
     &__description{
-        align-self: flex-start;
+        // align-self: flex-start;
         line-height: 1.5;
         font-size: 18px;
+        @media(max-width: $mobile){
+            font-size: 12px;
+            text-align: center;
+        }
         &--link{
             color: $green;
             text-decoration: none;
@@ -20,18 +30,37 @@
         color: $green;
         font-size: 48px;
         padding: 128px 0 16px;
+        @media(max-width: $mobile){
+            font-size: 24px;
+            padding: 64px 0 8px;
+            text-align: center;
+        }
     }
     &__photo{
         width: 35%;
         height: auto;
         align-self: center;
         border-radius: 8px;
-        box-shadow: -12px -12px 12px 0 rgba(29, 185, 84, 1),
+        box-shadow: -12px -12px 12px 0 rgba(29, 185, 84, .8),
         12px 12px 12px 0 rgba(0, 0, 0, .8);
-        
+        @media(max-width: $mobile){
+            box-shadow: -8px -8px 12px 0 rgba(0, 0, 0, .3),
+            8px 8px 12px 0 rgba(0, 0, 0, .5);
+            order: 0;
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            margin-top: 24px;
+        }
     }
     &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 0 180px 128px 0;
         text-align: start;
+        @media(max-width: $mobile){
+            padding: 0 0 32px 0;
+        }
     }
 }
