@@ -6,8 +6,10 @@ import Navigation from './Navigation'
 import Footer from './Footer'
 import Main from './Main'
 
+
 class App extends Component {
   state = {  }
+
   render() { 
     return ( 
       <Router basename={process.env.PUBLIC_URL}>
