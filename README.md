@@ -2,7 +2,7 @@ View this project live at [Github Pages.](https://jarek-janowski.github.io/react
 
 # React Router Website
 
-Website with good music inside powered by good technology :D
+Website with good music inside powered by better technology :D
 
 ## TOOLS
 
@@ -11,7 +11,6 @@ Website with good music inside powered by good technology :D
 - Deezer API
 - fetchJsonp
 - sass/scss
-- font-awesome
 
 ## Available scripts
 
